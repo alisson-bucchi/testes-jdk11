@@ -11,6 +11,8 @@ public class TestesJDK11 {
     @Before
     public void setUp() throws InterruptedException {
 
+        System.setProperty("hudson.model.DirectoryBrowserSupport.CSP"," ")
+
         //System.setProperty("webdriver.http.factory", "jdk-http-client");
         //WebDriverManager.firefoxdriver().setup();
 
